@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #314755, #26a0da);
+    width: 200px;
+    height: 250px;
+}
+
+.container i:nth-child(2) {
+    font-size: 25px;
+}
+.container i:nth-child(3) {
+    font-size: 22px;
+}
+.container p:nth-child(4) {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.container h1, i, p {
+    margin-top: 8px;
+}
+.refresh {
+    cursor: pointer;
+}
